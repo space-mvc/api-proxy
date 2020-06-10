@@ -28,3 +28,12 @@ http://local.api-proxy.com/weather-forecast?q=new%20york
 
 /app/Library/Sdk/OpenWeatherMap.php
 
+### Tested Queries (for open weather map)
+
+/weather-forecast?q=new%20york
+
+/weather-forecast?q=london
+
+/weather-forecast?q=manchester
+
+/weather-forecast?q=england
