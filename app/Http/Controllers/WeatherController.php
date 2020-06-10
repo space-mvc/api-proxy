@@ -27,7 +27,9 @@ class WeatherController extends Controller
             $sdk = new OpenWeatherMap;
 
             // set weather location
-            $sdk->setQuery($request->q);
+            if(!empty($request->q)) {
+                $sdk->setQuery($request->q);
+            }
 
             // get weather forecast
             $result = $sdk->getWeatherForecast();
