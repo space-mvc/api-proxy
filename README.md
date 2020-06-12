@@ -37,3 +37,7 @@ http://local.api-proxy.com/weather-forecast?q=new%20york
 /weather-forecast?q=manchester
 
 /weather-forecast?q=england
+
+/weather-forecast?q=london&units=metric
+
+/weather-forecast?q=london&units=imperial

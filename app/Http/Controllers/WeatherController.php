@@ -31,6 +31,11 @@ class WeatherController extends Controller
                 $sdk->setQuery($request->q);
             }
 
+            // set weather units
+            if(!empty($request->units)) {
+                $sdk->setUnits($request->units);
+            }
+
             // get weather forecast
             $result = $sdk->getWeatherForecast();
 
