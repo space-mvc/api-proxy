@@ -28,7 +28,7 @@ http://local.api-proxy.com/weather-forecast?q=new%20york
 
 /app/Library/Sdk/OpenWeatherMap.php
 
-### Tested Queries (for open weather map)
+### Tested Queries (open weather map capabilities)
 
 /weather-forecast?q=new%20york
 
